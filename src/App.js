@@ -53,6 +53,14 @@ class App extends React.Component {
                   <h4>Lock-down recommended at neighbourhoods with red outline</h4>
                 </header>
               </div>
+              <br />
+              <div className="sidebar">
+                <h4>Lastest News</h4>
+                <ul>
+                    <li><a href="https://bc.ctvnews.ca/3-deaths-from-covid-19-in-b-c-since-tuesday-all-community-outbreaks-declared-over-1.5008204">3 deaths from COVID-19 in B.C. since Tuesday, all community outbreaks declared over</a></li>
+                    <li><a href="https://winnipeg.ctvnews.ca/no-new-covid-19-cases-2-more-recoveries-reported-in-manitoba-on-thursday-1.5008479">No new COVID-19 cases, 2 more recoveries reported in Manitoba on Thursday</a></li>
+                </ul>
+            </div>
             </Col>
             <Col md={4}>
               <Announcement />

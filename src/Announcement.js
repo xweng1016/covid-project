@@ -15,48 +15,49 @@ class Announcement extends React.Component {
             </div>
             <br />
             <div className="sidebar">
+            <h4>Hospital Capacity</h4>
                 <div className="imgtxts">
                     <div id="imgtxt1">
                         < img src="./icu.png" />
+                        <h5>59.3%</h5>
                         <p>ICU Beds</p >
                     </div>
                     <div id="imgtxt2">
                         < img src="./vented.png" />
+                        <h5>21.9%</h5>
                         <p>Vented Beds</p >
                     </div>
                     <div id="imgtxt3">
                         < img src="./acute.png" />
+                        <h5>91.3%</h5>
                         <p>Acute Beds</p >
                     </div>
                 </div>
-                <br />
+                <h4>Estimated number of days of PPE available</h4>
                 <div className="imgtxts">
                     <div id="imgtxt1">
                         < img src="./glove.png" />
+                        <h5>447.8</h5>
                         <p>Gloves</p >
                     </div>
                     <div id="imgtxt2">
                         < img src="eye.png" />
+                        <h5>169.5</h5>
                         <p>PPE Eyewear</p >
                     </div>
                     <div id="imgtxt3">
                         < img src="s_mask.png" />
+                        <h5>332.9</h5>
                         <p>Surgical Masks</p >
                     </div>
                     <div id="imgtxt4">
                         < img src="n95.png" />
+                        <h5>866.1</h5>
                         <p>N95 Masks</p >
                     </div>
                 </div>
             </div>
             <br />
-            <div className="sidebar">
-                <h4>Lastest News</h4>
-                <ul>
-                    <li><a href="https://bc.ctvnews.ca/3-deaths-from-covid-19-in-b-c-since-tuesday-all-community-outbreaks-declared-over-1.5008204">3 deaths from COVID-19 in B.C. since Tuesday, all community outbreaks declared over</a></li>
-                    <li><a href="https://winnipeg.ctvnews.ca/no-new-covid-19-cases-2-more-recoveries-reported-in-manitoba-on-thursday-1.5008479">No new COVID-19 cases, 2 more recoveries reported in Manitoba on Thursday</a></li>
-                </ul>
-            </div>
         </div>
         );
     }
